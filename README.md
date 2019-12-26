@@ -29,5 +29,11 @@ Step 4: Test the rest endpoints
  # How to start Jenkins Server
  Path to Jenkins war> java -jar jenkins.war
  
+ Jenkins username/pwd : scott/tiger
+ 
+ More about Jenkins server installation can be found at https://www.tutorialspoint.com/jenkins/jenkins_installation.htm
+ 
+ 
+ 
  
 
