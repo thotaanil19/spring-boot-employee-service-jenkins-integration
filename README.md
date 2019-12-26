@@ -34,6 +34,10 @@ Step 4: Test the rest endpoints
  More about Jenkins server installation can be found at https://www.tutorialspoint.com/jenkins/jenkins_installation.htm
  
  
+ # Access the Jenkins dashboard from browser
+ 
+ http://localhost:8080
+ 
  
  
 
