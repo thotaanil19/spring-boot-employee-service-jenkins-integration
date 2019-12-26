@@ -11,5 +11,4 @@ public class RedisCacheDemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(RedisCacheDemoApplication.class, args);
 	}
-  
 }
