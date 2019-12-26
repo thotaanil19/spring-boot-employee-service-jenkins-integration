@@ -1,4 +1,4 @@
-# Getting Started
+# Getting Started...
 
 Step 1: First start the Redis Cache server
 In my local: run Redis-x64-3.2.100/redis-server.exe
