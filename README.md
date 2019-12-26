@@ -20,4 +20,14 @@ Step 4: Test the rest endpoints
 }
  It saves the newly inserted record into Redis cache-demo
  2. http://localhost:8080/app/emp/4 - Will get the results from Cache
+ 
+ 
+ # This is the Demo Project for Jenkins Build Tool.
+ 
+ Once we comit any changes to this master branch, Jenkis will automatically build this Maven Project
+ 
+ # How to start Jenkins Server
+ Path to Jenkins war> java -jar jenkins.war
+ 
+ 
 
