@@ -17,27 +17,27 @@ public class EmployeeService {
 	@Autowired
 	private EmployeeDao employeeDao;
 
-	@Cacheable(value="Employees", key="#id", unless="#result == null")
+	//@Cacheable(value="Employees", key="#id", unless="#result == null")
 	public Employee getById(Integer id) {
 		return employeeDao.getById(id);
 	}
 
-	@CacheEvict(value="Employees", key="#id")
+	//@CacheEvict(value="Employees", key="#id")
 	public void deleteById(Integer id) {
 		employeeDao.deleteById(id);
 	}
 	
-	@Cacheable(value="Employees", unless="#result == null")
+	//@Cacheable(value="Employees", unless="#result == null")
 	public List<Employee> getAll() {
 		return employeeDao.getAll();
 	}
 
-	@CacheEvict(value="Employees")
+	//@CacheEvict(value="Employees")
 	public void deleteAll() {
 		employeeDao.deleteAll();
 	}
 
-	@CachePut(value="Employees", key="#employee.id")
+	//@CachePut(value="Employees", key="#employee.id")
 	public Employee saveOrUpdate(Employee employee) {
 		employeeDao.saveOrUpdate(employee);
 		return employee;
