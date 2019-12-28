@@ -6,12 +6,14 @@ import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
 
 import com.springboot.rediscachedemo.dao.EmployeeDao;
 import com.springboot.rediscachedemo.dto.Employee;
 import com.springboot.rediscachedemo.service.EmployeeService;
 
 @SpringBootTest(classes = { EmployeeController.class, EmployeeService.class, EmployeeDao.class })
+//@ActiveProfiles("default") 
 public class EmployeeControllerTest {
 
 	@Autowired
