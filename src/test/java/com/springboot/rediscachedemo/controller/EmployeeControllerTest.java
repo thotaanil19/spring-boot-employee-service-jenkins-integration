@@ -13,7 +13,7 @@ import com.springboot.rediscachedemo.dto.Employee;
 import com.springboot.rediscachedemo.service.EmployeeService;
 
 @SpringBootTest(classes = { EmployeeController.class, EmployeeService.class, EmployeeDao.class })
-//@ActiveProfiles("default") 
+@ActiveProfiles("default") 
 public class EmployeeControllerTest {
 
 	@Autowired
